@@ -1,3 +1,7 @@
+body {
+    font-size: 20px;
+}
+
 
 .blue {
     background-color: #2c3e50;
@@ -16,46 +20,62 @@
     color:white;
 }
 
+
 .avatar {
     width: 200px;
 }
+
+/* SEZIONE DIVISORI */
 
 .fa-star {
     font-size: 22px;
     padding: 0 10px;
 }
 
-.divisore {
+.divisore,
+.divisore-black {
     position: relative;
     text-align: center;
     width: 30%;
   }
   
-  .divisore p {
+  .divisore i,
+  .divisore-black i {
     display: inline-block;
     position: relative;
     padding: 0 5px; 
   }
   
   .divisore::before,
-  .divisore::after {
+  .divisore::after,
+  .divisore-black::before,
+  .divisore-black::after {
     content: "";
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     height: 4px;
-    background-color: white;
     width: calc(50% - 30px);
     min-width: 40px;
     border-radius: 2px;
   }
   
-  .divisore::before {
+  .divisore::before,
+  .divisore-black::before {
     left: 0;
   }
   
-  .divisore::after {
+  .divisore::after,
+  .divisore-black::after {
     right: 0;
   }
-  
-  
+
+  .divisore::before,
+  .divisore::after {
+    background-color: white;
+  }
+
+  .divisore-black::before,
+  .divisore-black::after {
+    background-color: black;
+  }

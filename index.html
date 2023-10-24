@@ -115,7 +115,7 @@
         </div>
         <!-- /SEZIONE IMMAGINI -->
 
-        <!-- SEZIONE TESTO -->
+        <!-- SEZIONE ABOUT -->
         <div class="container-fluid aqua">
             <div class="container text-center py-5 px-5 my-font-white">
               <h1 class="text-uppercase display-5 fw-bold">about</h1>
@@ -135,23 +135,32 @@
               <button type="button" class="btn btn-outline-light mt-5"><i class="fa-solid fa-download"></i> Download</button>
             </div>
           </div>
-          
-
-
-        <!-- /SEZIONE TESTO -->
+        <!-- /SEZIONE ABOUT -->
 
         <!-- SEZIONE INFORMAZIONI UTENTE -->
         <div class="container-fluid">
             <div class="container-md">
                 <div class="column gap-3 py-5">
-                    <div class="col-sm aqua rounded-3 my-2">Name</div>
-                    <div class="col-sm aqua rounded-3 my-2">Email Address</div>∏
-                    <div class="col-sm aqua rounded-3 my-2">Phone Number</div>
-                    <div class="col-sm aqua rounded-3 my-2">Message</div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control no-outline rounded-0 border-0 border-bottom" id="floatingInput" placeholder="">
+                        <label for="floatingInput">Nome</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="email" class="form-control no-outline rounded-0 border-0 border-bottom" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control no-outline rounded-0 border-0 border-bottom" id="floatingInput" placeholder="">
+                        <label for="floatingInput">Phone</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="text" class="form-control no-outline rounded-0 border-0 pb-5" id="floatingInput" placeholder="">
+                        <label for="floatingInput">Message</label>
+                    </div>
                 </div>
                 <div class="p-6">
                     <hr>
-                    <div class="mb-4">pulsante</div>
+                    <button type="button" class="btn aqua-btn mb-3">Send</button>
                 </div>
             </div>
         </div>

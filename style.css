@@ -25,6 +25,22 @@ body {
     width: 200px;
 }
 
+.no-outline {
+    outline: white;
+}
+
+.aqua-btn {
+    background-color: #1abc9c;
+    color: white;
+    border:#1abc9c;
+}
+
+.aqua-btn:hover {
+    background-color: white;
+    color: #1abc9c;
+    border: #1abc9c;
+}
+
 /* SEZIONE DIVISORI */
 
 .fa-star {
@@ -79,3 +95,4 @@ body {
   .divisore-black::after {
     background-color: black;
   }
+

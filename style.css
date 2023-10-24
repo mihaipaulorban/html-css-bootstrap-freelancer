@@ -15,3 +15,47 @@
 .my-font-white{
     color:white;
 }
+
+.avatar {
+    width: 200px;
+}
+
+.fa-star {
+    font-size: 22px;
+    padding: 0 10px;
+}
+
+.divisore {
+    position: relative;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .divisore p {
+    display: inline-block;
+    position: relative;
+    padding: 0 5px; 
+  }
+  
+  .divisore::before,
+  .divisore::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4px;
+    background-color: white;
+    width: calc(50% - 30px);
+    min-width: 40px;
+    border-radius: 2px;
+  }
+  
+  .divisore::before {
+    left: 0;
+  }
+  
+  .divisore::after {
+    right: 0;
+  }
+  
+  
